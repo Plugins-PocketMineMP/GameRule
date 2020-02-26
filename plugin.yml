@@ -1,0 +1,15 @@
+name: GameRule
+author: alvin0319
+main: GameRule\GameRule
+version: 1.0.0
+api: 3.0.0
+
+commands:
+  gamerule:
+    description: GameRule command.
+    permission: gamerule.command
+
+permissions:
+  gamerule.command:
+    description: Control the GameRule command.
+    default: op
